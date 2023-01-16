@@ -14,9 +14,9 @@ sudo unzip apache-maven-3.8.7-bin.zip
 sudo rm -rf apache-maven-3.8.7-bin.zip
 sudo mv apache-maven-3.8.7/ maven
 #setting Environmental Variables
-vi ~/.bash_profile  # and add the lines below
-export M2_HOME=/opt/maven
-export PATH=$PATH:$M2_HOME/bin
+#vi ~/.bash_profile  # and add the lines below
+#export M2_HOME=/opt/maven
+#export PATH=$PATH:$M2_HOME/bin
 #Refresh and confirn the maven version
 source ~/.bash_profile
 mvn -version
