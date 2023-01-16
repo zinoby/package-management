@@ -1,6 +1,6 @@
 #!/bin/bash
 # install Java JDK 1.8+ as a pre-requisit for maven to run.
-
+#Author: Kachy
 sudo hostnamectl set-hostname maven
 sudo su - ec2-user
 cd /opt
