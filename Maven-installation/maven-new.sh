@@ -13,3 +13,6 @@ sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8
 sudo unzip apache-maven-3.8.7-bin.zip
 sudo rm -rf apache-maven-3.8.7-bin.zip
 sudo mv apache-maven-3.8.7/ maven
+vi ~/.bash_profile  # and add the lines below
+export M2_HOME=/opt/maven
+export PATH=$PATH:$M2_HOME/bin
